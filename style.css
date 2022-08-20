@@ -13,6 +13,7 @@ h1{
  letter-spacing: 5px;
  margin: 25px 0;
  text-align: center;
+ font-size: 40px;
 }
 
 /* loader */
@@ -52,6 +53,40 @@ h1{
  --s: -1, -1;
 }
 
+
+
+/* Image-Container */
+.image-container{
+ margin: 10px 20%;
+}
+.image-container img{
+ scroll-snap-type: y mandatory;
+ width: 100%;
+ margin-top: 15px;
+}
+/* Media Query: Large SmartPhone*/
+@media screen and (max-width: 600px) {
+ h1{
+  font-size:20px;
+ }
+ .image-container{
+  margin:10px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* KeyFrames */
 @keyframes loader-ukq0pimd {
 
  0%,
@@ -72,4 +107,3 @@ h1{
   transform: scale(var(--s, 1)) translate(11.2px, -11.2px) rotate(-90deg);
  }
 }
-
