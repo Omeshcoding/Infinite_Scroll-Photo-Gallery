@@ -58,7 +58,7 @@ h1{
 
 /* Image-Container */
 .image-container{
- margin: 10px 10%;
+ margin: 10px 20%;
 }
 .image-container img{
  scroll-snap-type: y mandatory;
